@@ -14,9 +14,26 @@
  *= require_self
  */
  
- @import 'bootstrap-sprockets';
- @import 'bootstrap';
- 
- h1, h2, h3 {
-    font-family: 'Open Sans', sans-serif;
- }
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
+
+h1, h2, h3 {
+   font-family: 'Open Sans', sans-serif;
+}
+
+.navbar, .home-callout{
+    //Gradient provided by 
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(left, #2C5364, #203A43, #0F2027);
+    background: -moz-linear-gradient(left, #2C5364, #203A43, #0F2027);
+    background: -o-linear-gradient(left, #2C5364, #203A43, #0F2027);
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: none;
+}
+
+.home-callout {
+    color: white;
+    margin-top: -20px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
